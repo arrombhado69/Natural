@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Natural - Beleza Orgânica</title>
+  <meta name="description" content="Produtos naturais e orgânicos para uma beleza consciente e sustentável. Assinatura mensal de cosméticos naturais.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo" data-page="home">
+        Aura Natural
+        <span class="logo-icon">🌿</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#" data-page="home" class="nav-link active">Início</a>
+        <a href="#" data-page="assinaturas" class="nav-link">Assinaturas</a>
+        <a href="#" data-page="cadastro" class="nav-link">Cadastro</a>
+        <a href="#" data-page="quiz" class="nav-link">Quiz de Pele</a>
+      </div>
+      <button class="mobile-menu-btn" id="mobile-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- Home Page -->
+    <section id="page-home" class="page active">
+      <div class="hero">
+        <div class="hero-content">
+          <h1>Beleza Natural,<br>Resultados Reais</h1>
+          <p>Descubra produtos de beleza orgânicos e sustentáveis que cuidam da sua pele e do planeta.</p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary" data-page="assinaturas">Ver Assinaturas</button>
+            <button class="btn btn-outline" data-page="quiz">Fazer Quiz de Pele</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section about">
+        <div class="container">
+          <h2 class="section-title">Sobre Nós</h2>
+          <p class="section-subtitle">Acreditamos que a verdadeira beleza vem da natureza</p>
+          <div class="about-grid">
+            <div class="about-card">
+              <div class="about-icon">🌱</div>
+              <h3>100% Natural</h3>
+              <p>Todos os nossos produtos são feitos com ingredientes naturais e orgânicos certificados.</p>
+            </div>
+            <div class="about-card">
+              <div class="about-icon">🐰</div>
+              <h3>Cruelty Free</h3>
+              <p>Nunca testamos em animais. Beleza sem crueldade é o nosso compromisso.</p>
+            </div>
+            <div class="about-card">
+              <div class="about-icon">♻️</div>
+              <h3>Sustentável</h3>
+              <p>Embalagens recicláveis e processos que respeitam o meio ambiente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section products">
+        <div class="container">
+          <h2 class="section-title">Nossos Produtos</h2>
+          <p class="section-subtitle">Descubra a linha completa de produtos naturais e orgânicos</p>
+          <div class="products-grid">
+            <div class="product-card">
+              <div class="product-image" style="background: linear-gradient(135deg, #a8e6cf, #88d8b0);"></div>
+              <h3>Sérum Facial</h3>
+              <p>Hidratação profunda com vitamina C natural</p>
+              <span class="product-price">R$ 89,90</span>
+            </div>
+            <div class="product-card">
+              <div class="product-image" style="background: linear-gradient(135deg, #ffd3a5, #fd6585);"></div>
+              <h3>Óleo Corporal</h3>
+              <p>Nutrição intensa com óleos essenciais</p>
+              <span class="product-price">R$ 69,90</span>
+            </div>
+            <div class="product-card">
+              <div class="product-image" style="background: linear-gradient(135deg, #a18cd1, #fbc2eb);"></div>
+              <h3>Máscara Facial</h3>
+              <p>Renovação celular com argila natural</p>
+              <span class="product-price">R$ 49,90</span>
+            </div>
+            <div class="product-card">
+              <div class="product-image" style="background: linear-gradient(135deg, #84fab0, #8fd3f4);"></div>
+              <h3>Hidratante</h3>
+              <p>Fórmula leve com aloe vera orgânico</p>
+              <span class="product-price">R$ 59,90</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section cta">
+        <div class="container">
+          <h2>Pronta para Transformar sua Rotina de Beleza?</h2>
+          <p>Assine agora e receba produtos exclusivos todo mês</p>
+          <button class="btn btn-primary btn-lg" data-page="assinaturas">Começar Agora</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Assinaturas Page -->
+    <section id="page-assinaturas" class="page">
+      <div class="subscription-hero">
+        <div class="subscription-hero-content">
+          <div class="subscription-icon">🎁</div>
+          <h1>Caixa Surpresa Mensal</h1>
+          <p>Receba produtos selecionados exclusivamente para você todos os meses. Uma experiência única de autocuidado entregue na sua porta!</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">📦</div>
+            <h3>Produtos Selecionados</h3>
+            <p>Receba produtos cuidadosamente escolhidos todo mês</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">✨</div>
+            <h3>Surpresas Exclusivas</h3>
+            <p>Novidades e lançamentos antes de todos</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">🚚</div>
+            <h3>Entrega Garantida</h3>
+            <p>Frete grátis para todo o Brasil</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">📅</div>
+            <h3>Flexibilidade Total</h3>
+            <p>Pause ou cancele quando quiser</p>
+          </div>
+        </div>
+
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="feminino">Para Ela</button>
+          <button class="tab-btn" data-tab="masculino">Para Ele</button>
+        </div>
+
+        <div class="tab-content active" id="tab-feminino">
+          <div class="plans-grid">
+            <div class="plan-card">
+              <h3 class="plan-title">Essência Feminina</h3>
+              <p class="plan-description">Caixa surpresa com produtos selecionados para cuidados femininos</p>
+              <div class="plan-price">R$ 129,90<span>/mês</span></div>
+              <div class="plan-products">📦 4-5 produtos por mês</div>
+              <ul class="plan-features">
+                <li>Produtos para pele e corpo</li>
+                <li>Itens de skincare premium</li>
+                <li>Fragrâncias delicadas</li>
+                <li>Surpresas exclusivas</li>
+                <li>Frete grátis</li>
+              </ul>
+              <button class="btn btn-primary btn-block">Assinar Agora</button>
+            </div>
+            <div class="plan-card featured">
+              <div class="plan-badge">Mais Popular</div>
+              <h3 class="plan-title">Aura Radiante</h3>
+              <p class="plan-description">Experiência premium com produtos de luxo e tratamentos especiais</p>
+              <div class="plan-price">R$ 199,90<span>/mês</span></div>
+              <div class="plan-products">📦 6-8 produtos por mês</div>
+              <ul class="plan-features">
+                <li>Linha completa de cuidados</li>
+                <li>Produtos exclusivos</li>
+                <li>Tratamentos intensivos</li>
+                <li>Brindes especiais</li>
+                <li>Frete grátis + embalagem premium</li>
+              </ul>
+              <button class="btn btn-primary btn-block">Assinar Agora</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="tab-masculino">
+          <div class="plans-grid">
+            <div class="plan-card">
+              <h3 class="plan-title">Essência Masculina</h3>
+              <p class="plan-description">Caixa surpresa com produtos selecionados para cuidados masculinos</p>
+              <div class="plan-price">R$ 129,90<span>/mês</span></div>
+              <div class="plan-products">📦 4-5 produtos por mês</div>
+              <ul class="plan-features">
+                <li>Produtos para pele e barba</li>
+                <li>Itens de skincare masculino</li>
+                <li>Fragrâncias marcantes</li>
+                <li>Surpresas exclusivas</li>
+                <li>Frete grátis</li>
+              </ul>
+              <button class="btn btn-primary btn-block">Assinar Agora</button>
+            </div>
+            <div class="plan-card featured">
+              <div class="plan-badge">Mais Popular</div>
+              <h3 class="plan-title">Premium Masculino</h3>
+              <p class="plan-description">Máximo cuidado para homens modernos com produtos premium</p>
+              <div class="plan-price">R$ 199,90<span>/mês</span></div>
+              <div class="plan-products">📦 6-8 produtos por mês</div>
+              <ul class="plan-features">
+                <li>Linha completa de cuidados</li>
+                <li>Produtos exclusivos</li>
+                <li>Tratamentos intensivos</li>
+                <li>Brindes especiais</li>
+                <li>Frete grátis + embalagem premium</li>
+              </ul>
+              <button class="btn btn-primary btn-block">Assinar Agora</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="subscription-footer">
+          <p>Todos os nossos produtos são veganos, livres de crueldade animal e sustentáveis</p>
+          <div class="subscription-footer-buttons">
+            <button class="btn btn-outline" data-page="quiz">Fazer Quiz de Pele</button>
+            <button class="btn btn-outline" data-page="home">Saiba Mais</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cadastro Page -->
+    <section id="page-cadastro" class="page">
+      <div class="container">
+        <div class="form-container">
+          <div class="form-header">
+            <div class="form-icon">👤</div>
+            <h1>Cadastro de Cliente</h1>
+            <p>Preencha seus dados para começar sua jornada com a Aura Natural</p>
+          </div>
+          <form id="cadastro-form">
+            <div class="form-group">
+              <label for="name">Nome Completo</label>
+              <input type="text" id="name" name="name" placeholder="Maria Silva" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="maria@email.com" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(11) 99999-9999" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cpf">CPF</label>
+              <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+            </div>
+            <div class="form-group">
+              <label for="address">Endereço</label>
+              <input type="text" id="address" name="address" placeholder="Rua Example, 123" required>
+            </div>
+            <div class="form-row form-row-3">
+              <div class="form-group">
+                <label for="city">Cidade</label>
+                <input type="text" id="city" name="city" placeholder="São Paulo" required>
+              </div>
+              <div class="form-group">
+                <label for="state">Estado</label>
+                <input type="text" id="state" name="state" placeholder="SP" maxlength="2" required>
+              </div>
+              <div class="form-group">
+                <label for="zipcode">CEP</label>
+                <input type="text" id="zipcode" name="zipcode" placeholder="00000-000" required>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block btn-lg">Cadastrar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiz Page -->
+    <section id="page-quiz" class="page">
+      <div class="container">
+        <div class="quiz-container" id="quiz-container">
+          <div class="quiz-header">
+            <h1>Descubra Seu Tipo de Pele</h1>
+            <p>Responda algumas perguntas para receber recomendações personalizadas</p>
+            <div class="progress-bar">
+              <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <p class="progress-text" id="progress-text">Pergunta 1 de 3</p>
+          </div>
+
+          <div class="quiz-step active" id="step-1">
+            <h2>1. Como você descreveria sua pele?</h2>
+            <div class="quiz-options">
+              <label class="quiz-option">
+                <input type="radio" name="question1" value="oleosa">
+                <span>Oleosa - Brilha durante o dia, poros visíveis</span>
+              </label>
+              <label class="quiz-option">
+                <input type="radio" name="question1" value="seca">
+                <span>Seca - Repuxa, descama, sem brilho</span>
+              </label>
+              <label class="quiz-option">
+                <input type="radio" name="question1" value="mista">
+                <span>Mista - Oleosa na zona T, seca nas bochechas</span>
+              </label>
+              <label class="quiz-option">
+                <input type="radio" name="question1" value="normal">
+                <span>Normal - Equilibrada, sem excesso de óleo ou ressecamento</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="quiz-step" id="step-2">
+            <h2>2. Quais são suas principais preocupações?</h2>
+            <p class="quiz-hint">Selecione todas que se aplicam</p>
+            <div class="quiz-options">
+              <label class="quiz-option checkbox">
+                <input type="checkbox" name="question2" value="acne">
+                <span>Acne e espinhas</span>
+              </label>
+              <label class="quiz-option checkbox">
+                <input type="checkbox" name="question2" value="manchas">
+                <span>Manchas escuras</span>
+              </label>
+              <label class="quiz-option checkbox">
+                <input type="checkbox" name="question2" value="rugas">
+                <span>Linhas e rugas</span>
+              </label>
+              <label class="quiz-option checkbox">
+                <input type="checkbox" name="question2" value="poros">
+                <span>Poros dilatados</span>
+              </label>
+              <label class="quiz-option checkbox">
+                <input type="checkbox" name="question2" value="sensibilidade">
+                <span>Vermelhidão e sensibilidade</span>
+              </label>
+              <label class="quiz-option checkbox">
+                <input type="checkbox" name="question2" value="ressecamento">
+                <span>Ressecamento</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="quiz-step" id="step-3">
+            <h2>3. Qual é o nível de sensibilidade da sua pele?</h2>
+            <div class="quiz-options">
+              <label class="quiz-option">
+                <input type="radio" name="question3" value="baixa">
+                <span>Baixa - Raramente tenho irritações</span>
+              </label>
+              <label class="quiz-option">
+                <input type="radio" name="question3" value="media">
+                <span>Média - Às vezes tenho reações a produtos</span>
+              </label>
+              <label class="quiz-option">
+                <input type="radio" name="question3" value="alta">
+                <span>Alta - Frequentemente tenho vermelhidão e irritação</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="quiz-buttons">
+            <button class="btn btn-outline" id="btn-previous" style="display: none;">Anterior</button>
+            <button class="btn btn-primary" id="btn-next">Próxima</button>
+          </div>
+        </div>
+
+        <div class="quiz-result" id="quiz-result" style="display: none;">
+          <div class="result-icon">✓</div>
+          <h1 id="result-title"></h1>
+          <p id="result-description"></p>
+          <div class="result-recommendations">
+            <h3>Recomendações para você:</h3>
+            <ul id="result-recommendations"></ul>
+          </div>
+          <div class="result-buttons">
+            <button class="btn btn-primary" data-page="assinaturas">Ver Assinaturas</button>
+            <button class="btn btn-outline" id="btn-restart">Refazer Quiz</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Aura Natural</h3>
+          <p>Produtos naturais e orgânicos para uma beleza consciente e sustentável.</p>
+          <p class="tagline">Suave • Orgânico • Elegante</p>
+        </div>
+        <div class="footer-col">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#" data-page="home">Início</a></li>
+            <li><a href="#" data-page="assinaturas">Assinaturas</a></li>
+            <li><a href="#" data-page="cadastro">Cadastro</a></li>
+            <li><a href="#" data-page="quiz">Quiz de Pele</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul>
+            <li>📧 contato@auranatural.com.br</li>
+            <li>📱 +55 11 9999-9999</li>
+            <li>📍 São Paulo, SP</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Redes Sociais</h4>
+          <div class="social-links">
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Aura Natural. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
